@@ -29,7 +29,7 @@ import com.xcobolr.esigntransaction.repository.EmployeeRepository;
 
 
 @RestController // This means that this class is a Controller
-@RequestMapping(path="/demo") // This means URL's start with /demo (after Application path)
+@RequestMapping(path="/api/transaction") // This means URL's start with /demo (after Application path)
 @Api(value="Employee Management System", description="Operations pertaining to Employee in Employee Management System")
 public class MainController {
   @Autowired // This means to get the bean called userRepository
